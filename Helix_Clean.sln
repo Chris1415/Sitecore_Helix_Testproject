@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{67a49eb5-f033-4b94-a662-be6a1310a63b}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{521cf72a-fb01-4f04-83c7-5288eb4fb0c9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{5cbdcd64-2736-439a-89c6-ed05b0a69c96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0f8ac681-ab37-4123-bd28-26b5d4fc3f9a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix_Clean.Website", "src\Project\Helix_Clean\code\Helix_Clean.Website.csproj", "{2221d72b-db43-41b8-a45c-20be49642dad}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helix_Clean", "Helix_Clean", "{6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|x64.Build.0 = Debug|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|x64.ActiveCfg = Release|Any CPU
+		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2221d72b-db43-41b8-a45c-20be49642dad} = {6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc}
+		{6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc} = {0f8ac681-ab37-4123-bd28-26b5d4fc3f9a}
+	EndGlobalSection
+EndGlobal

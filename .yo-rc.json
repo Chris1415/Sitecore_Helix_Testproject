@@ -1,0 +1,7 @@
+{
+  "generator-sitecore": {
+    "unicorn": true,
+    "solutionName": "Helix_Clean",
+    "sitecoreVersion": "8.2.160729"
+  }
+}
