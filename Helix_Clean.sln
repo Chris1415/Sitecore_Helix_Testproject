@@ -1,25 +1,25 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{67a49eb5-f033-4b94-a662-be6a1310a63b}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{67A49EB5-F033-4B94-A662-BE6A1310A63B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		README.md = README.md
 		nuget.config = nuget.config
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{521cf72a-fb01-4f04-83c7-5288eb4fb0c9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{521CF72A-FB01-4F04-83C7-5288EB4FB0C9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{5cbdcd64-2736-439a-89c6-ed05b0a69c96}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{5CBDCD64-2736-439A-89C6-ED05B0A69C96}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0f8ac681-ab37-4123-bd28-26b5d4fc3f9a}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0F8AC681-AB37-4123-BD28-26B5D4FC3F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix_Clean.Website", "src\Project\Helix_Clean\code\Helix_Clean.Website.csproj", "{2221d72b-db43-41b8-a45c-20be49642dad}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helix_Clean.Website", "src\Project\Helix_Clean\code\Helix_Clean.Website.csproj", "{2221D72B-DB43-41B8-A45C-20BE49642DAD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helix_Clean", "Helix_Clean", "{6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helix_Clean", "Helix_Clean", "{6A9A0D75-1CD6-4EB9-BC8B-62213CC37ABC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,20 +29,20 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Debug|x64.Build.0 = Debug|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|x64.ActiveCfg = Release|Any CPU
-		{2221d72b-db43-41b8-a45c-20be49642dad}.Release|x64.Build.0 = Release|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Debug|x64.Build.0 = Debug|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Release|x64.ActiveCfg = Release|Any CPU
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2221d72b-db43-41b8-a45c-20be49642dad} = {6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc}
-		{6a9a0d75-1cd6-4eb9-bc8b-62213cc37abc} = {0f8ac681-ab37-4123-bd28-26b5d4fc3f9a}
+		{2221D72B-DB43-41B8-A45C-20BE49642DAD} = {6A9A0D75-1CD6-4EB9-BC8B-62213CC37ABC}
+		{6A9A0D75-1CD6-4EB9-BC8B-62213CC37ABC} = {0F8AC681-AB37-4123-BD28-26B5D4FC3F9A}
 	EndGlobalSection
 EndGlobal
